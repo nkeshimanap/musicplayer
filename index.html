@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pierre's Music Player</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="taskbar">My Music Player</div>
+
+<div class="player-container">
+
+  <input type="radio" name="song" id="song1" checked>
+  <input type="radio" name="song" id="song2">
+  <input type="radio" name="song" id="song3">
+
+  <div class="player">
+
+    <div class="cover">
+      <img src="https://picsum.photos/300?random=1">
+      <img src="https://picsum.photos/300?random=2">
+      <img src="https://picsum.photos/300?random=3">
+    </div>
+
+    <div class="info">
+      <div class="song-info">
+        <h2>Blinding Lights</h2>
+        <p>The Weeknd</p>
+        <span class="now-playing">Now Playing</span>
+      </div>
+      <div class="song-info">
+        <h2>Levitating</h2>
+        <p>Dua Lipa</p>
+        <span class="now-playing">Now Playing</span>
+      </div>
+      <div class="song-info">
+        <h2>Peaches</h2>
+        <p>Justin Bieber</p>
+        <span class="now-playing">Now Playing</span>
+      </div>
+    </div>
+
+    <div class="progress-container">
+      <div class="progress-fill"></div>
+    </div>
+
+    <div class="controls">
+      <label for="song3" class="prev1">⏮</label>
+      <label for="song1" class="prev2">⏮</label>
+      <label for="song2" class="prev3">⏮</label>
+      <label class="play">▶</label>
+      <label for="song2" class="next1">⏭</label>
+      <label for="song3" class="next2">⏭</label>
+      <label for="song1" class="next3">⏭</label>
+    </div>
+
+  </div>
+
+  <div class="playlist">
+    <label for="song1" class="playlist-song">Blinding Lights - The Weeknd</label>
+    <label for="song2" class="playlist-song">Levitating - Dua Lipa</label>
+    <label for="song3" class="playlist-song">Peaches - Justin Bieber</label>
+  </div>
+
+</div>
+
+</body>
+</html>
